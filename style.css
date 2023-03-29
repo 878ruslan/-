@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cecc67;
+    color: #094bc7;
+    background-image: url(https://c0.wallpaperflare.com/preview/134/372/59/abstract-background-copyspace-brainstorm.jpg);
+}
+
+.title {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+#input {
+    background-color: #fff;
+    border: 20px;
+    border-color: black;
+    outline: none;
+    color: #0a07be;
+}
+
+button[type='submit'] {
+    background-color: rgb(148, 197, 148);
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+button[type='submit']:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.delete-btn {
+    color: black;
+    background-color: crimson;
+    border-radius: 10px;
+}
+.edit-btn {
+    color: black;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+.todo-name {
+    color: blueviolet;
+    font-style: italic;
+    font-size: larger;
+}
